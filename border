@@ -1,0 +1,5 @@
+.image{
+    border: 5px solid rgb(130, 0, 130);
+    border-radius: 5px;
+    height: 400px;
+}
