@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: black;
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid violet;
     border-radius: 10px;
     height: 400px;
 }
@@ -16,4 +16,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+body {
+    color: rgb(255, 255, 255);
 }
