@@ -13,7 +13,12 @@ body {
     color: black;
     border: 1px solid gray;
     background-color: #f2f2f2;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; /*animacion de 0.3 segundos*/
+}
+.link-button:hover {
+    background-color: #e0e0e0; /*cambiar el color cuando paso el cursor*/
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* mas sombra */
 }
